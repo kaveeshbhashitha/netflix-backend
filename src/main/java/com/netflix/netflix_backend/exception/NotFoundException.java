@@ -7,5 +7,4 @@ public class NotFoundException extends RuntimeException{
     public NotFoundException(String character){
         super("Could not found the entity with id "+character);
     }
-
 }
